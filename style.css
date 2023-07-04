@@ -112,4 +112,6 @@ main {
     align-items: center;
     width: 800px;
     padding: 100px 0px;
+    font-size: 18px;
+    text-align: center;
 }
