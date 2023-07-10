@@ -62,6 +62,7 @@ main {
     align-items: center;
     padding: 70px;
     gap: 200px;
+    width: 1400px;
 }
 
 .hero-info {
@@ -112,6 +113,102 @@ main {
     align-items: center;
     width: 800px;
     padding: 100px 0px;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
+}
+
+#cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px;
+    width: 1400px;
+}
+
+.cards-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 1400px;
+    gap: 40px;
+}
+
+.cards-title h2 {
+    font-size: 35px;
+}
+
+.cards-title {
+    font-size: 20px;
+}
+
+.cards-serv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 75px;
+    padding: 60px 0px;
+}
+
+.cards-serv-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.cards-serv-info p {
+    width: 400px;
+    font-size: 25px;
+}
+
+#contacts {
+    display: flex;
+    width: 1400px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    gap: 125px;
+    font-size: 20px;
+}
+
+.cont h2 {
+    font-size: 50px;
+}
+
+.cont-info {
+    display: flex;
+    gap: 60px;
+}
+
+.cont-info-emp {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.cont-info-emp ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cont-icons {
+    display: flex;
+    gap: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--nav-bg);
+    margin-top: 50px;
 }
