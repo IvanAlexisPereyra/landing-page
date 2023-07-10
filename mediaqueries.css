@@ -1,0 +1,129 @@
+@media (max-width: 1400px) {
+
+    #hero {
+        max-width: 1200px;
+    }
+
+    #cards {
+        max-width: 1200px;
+    }
+
+    .cards-title {
+        width: 1000px;
+    }
+
+    .cards-serv {
+        flex-direction: column;
+    }
+
+    #contacts {
+        max-width: 1200px;
+        flex-direction: column;
+    }
+
+    .cont-img {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    #hero {
+        max-width: 992px;
+        flex-direction: column;
+        gap: 75px;
+    }
+
+    #cards {
+        max-width: 992px;
+    }
+
+    .cards-title {
+        width: 900px;
+    }
+
+    #contacts {
+        max-width: 992px;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    #hero {
+        max-width: 768px;
+    }
+
+    #info {
+        max-width: 768px;
+        font-size: 20px;
+    }
+
+    #cards {
+        max-width: 768px;
+    }
+
+    .cards-title {
+        width: 700px;
+    }
+
+    #contacts {
+        max-width: 768px;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+    #hero {
+        max-width: 576px;
+    }
+
+    #info {
+        max-width: 500px;
+        font-size: 17px;
+    }
+
+    #cards {
+        max-width: 576px;
+    }
+
+    .cards-title {
+        width: 500px;
+    }
+
+    #contacts {
+        max-width: 576px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    #hero {
+        max-width: 400px;
+    }
+
+    #info {
+        max-width: 400px;
+    }
+
+    #cards {
+        max-width: 400px;
+    }
+
+    .cards-title {
+        width: 400px;
+    }
+
+    #contacts {
+        max-width: 400x;
+    }
+
+    .cont-info {
+        flex-direction: column;
+    }
+
+}

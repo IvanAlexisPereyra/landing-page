@@ -23,10 +23,9 @@ a {
 
 header {
     display: flex;
-    min-height: 70px;
-    background: var(--nav-bg);
     justify-content: space-between;
     align-items: center;
+    background-color: var(--nav-bg);
     padding: 0px 40px;
 }
 
@@ -133,14 +132,11 @@ main {
     text-align: center;
     width: 1400px;
     gap: 40px;
+    font-size: 20px;
 }
 
 .cards-title h2 {
     font-size: 35px;
-}
-
-.cards-title {
-    font-size: 20px;
 }
 
 .cards-serv {
@@ -168,7 +164,7 @@ main {
 #contacts {
     display: flex;
     width: 1400px;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
